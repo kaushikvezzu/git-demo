@@ -12,6 +12,6 @@ public class sampleapi
     @GetMapping
     public ResponseEntity<String> get()
     {
-        return ResponseEntity.ok("hello my name is kaushik");
+        return ResponseEntity.ok("hello my name is kaushik from master");
     }
 }
